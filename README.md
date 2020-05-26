@@ -50,7 +50,7 @@ To do this we create a penalised loss function J=(expected_value)-(KL_penalty) a
 
 In the discrete case the expected value is given by
 
-![\mathbb{E}_{a~P_{opt}}(Q_{UB}, a) = \sum_{a}P_{opt}(a)Q_{UB}(s,a)](https://render.githubusercontent.com/render/math?math=%5Cmathbb%7BE%7D_%7Ba~P_%7Bopt%7D%7D(Q_%7BUB%7D%2C%20a)%20%3D%20%5Csum_%7Ba%7DP_%7Bopt%7DQ_%7BUB%7D(s%2Ca))
+![\mathbb{E}_{a~P_{opt}}(Q_{UB}, a) = \sum_{a}P_{opt}(a)Q_{UB}(s,a)](https://render.githubusercontent.com/render/math?math=%5Cmathbb%7BE%7D_%7Ba~P_%7Bopt%7D%7D(Q_%7BUB%7D%2C%20a)%20%3D%20%5Csum_%7Ba%7DP_%7Bopt%7D(a)Q_%7BUB%7D(s%2Ca))
 
 and a penalty term can be defined by 
 
