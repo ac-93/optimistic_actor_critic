@@ -11,7 +11,7 @@ This repo consists of a tensorflow implementation of the Optimistic Actor Critic
 ```
 # requires python>=3.6
 
-# clone and install the repo (this may take a while)
+# clone and install the repo 
 git clone https://github.com/ac-93/optimistic-actor-critic.git
 cd optimistic_actor_critic
 pip install -e .
